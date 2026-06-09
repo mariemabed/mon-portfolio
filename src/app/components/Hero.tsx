@@ -36,7 +36,7 @@ export default function Hero() {
           <div className="absolute inset-0 bg-[#6D28D9] rounded-[40%_60%_70%_30%/40%_50%_60%_50%] animate-pulse"></div>
           <div className="relative z-10 p-8">
             <ImageWithFallback
-              src="/public/images/image_linkedin_cut.png"
+              src="/src/public/images/image_linkedin_cut.png"
               alt="Mariem El Abed"
               className="w-full h-auto rounded-lg shadow-2xl"
             />
