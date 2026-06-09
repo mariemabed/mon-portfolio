@@ -78,7 +78,7 @@ export default function About() {
                   <div className="absolute inset-0 bg-[#6D28D9] rounded-full transform scale-110"></div>
                   <div className="relative z-10 w-80 h-80 rounded-full overflow-hidden border-8 border-white shadow-2xl">
                     <ImageWithFallback
-                      src="/src/imports/image_linkedin_cut.png"
+                      src="/images/image_linkedin_cut.png"
                       alt="Mariem EL ABED"
                       className="w-full h-full object-cover"
                     />

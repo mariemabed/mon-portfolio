@@ -32,7 +32,7 @@ export default function Projects({ showTitle = true }: ProjectsProps) {
       title: "Social Network",
       description:
         "Réseau social complet avec fil d'actualité, messagerie en temps réel, système d'amis et partage de médias.",
-      imageUrl: "/src/public/images/socialnetwork.png",
+      imageUrl: "/images/socialnetwork.png",
       tech: ["React", "Spring Boot"],
     },
   ];
