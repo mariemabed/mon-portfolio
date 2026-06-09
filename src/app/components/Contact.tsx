@@ -44,7 +44,7 @@ export default function Contact() {
 
           {/* CV */}
           <a
-            href="/src/public/CV.pdf"
+            href="/images/CV.pdf"
             download="Mariem_Abed_CV.pdf"
             className="bg-[#6D28D9] text-white p-5 rounded-2xl shadow-md text-center hover:bg-[#5B21B6] transition block"
           >
