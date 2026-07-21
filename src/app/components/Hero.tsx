@@ -1,4 +1,5 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import { CheckCircle, Linkedin } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -26,20 +27,33 @@ export default function Hero() {
               href="https://www.linkedin.com/in/mariem-abed-81b738245"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-3 border-2 border-[#6D28D9] text-[#6D28D9] rounded-lg hover:bg-[#6D28D9] hover:text-white transition-colors"
+              className="group px-8 py-3 border-2 border-[#6D28D9] text-[#6D28D9] rounded-lg hover:bg-[#6D28D9] hover:text-white transition-all flex items-center justify-center gap-2"
             >
+              <Linkedin size={22} className="group-hover:rotate-12 transition-transform" />
               LinkedIn
             </a>
           </div>
         </div>
-        <div className="relative">
-          <div className="absolute inset-0 bg-[#6D28D9] rounded-[40%_60%_70%_30%/40%_50%_60%_50%] animate-pulse"></div>
-          <div className="relative z-10 p-8">
-            <ImageWithFallback
-              src="/images/image_linkedin_cut.png"
-              alt="Mariem El Abed"
-              className="w-full h-auto rounded-lg shadow-2xl"
-            />
+        {/* IMAGE SIDE */}
+        <div className="flex justify-center lg:justify-end">
+          <div className="relative group">
+
+            {/* glow background */}
+            <div className="absolute inset-0 bg-gradient-to-tr from-[#6D28D9] to-purple-300 rounded-full blur-2xl opacity-30 group-hover:opacity-50 transition"></div>
+
+            {/* image */}
+            <div className="relative">
+              <div className="absolute inset-0 bg-[#6D28D9] rounded-full transform scale-110"></div>
+
+              {/* Photo augmentée */}
+              <div className="relative z-10 w-96 h-96 lg:w-[26rem] lg:h-[26rem] rounded-full overflow-hidden border-8 border-white shadow-2xl">
+                <ImageWithFallback
+                  src="/images/image_linkedin_cut.png"
+                  alt="Mariem EL ABED"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

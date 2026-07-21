@@ -47,18 +47,12 @@ export default function ProjectCard({
           {tech.map((t, i) => (
             <span
               key={i}
-              className="text-[10px] px-2 py-0.5 bg-[#6D28D9]/10 text-[#6D28D9] rounded-full font-medium"
+              className="text-[13px] px-2 py-0.5 bg-[#6D28D9]/10 text-[#6D28D9] rounded-full font-medium"
             >
               {t}
             </span>
           ))}
         </div>
-
-        {/* 🔗 Button */}
-        <button className="mt-2 flex items-center gap-1 text-white bg-[#6D28D9] px-4 py-1.5 text-sm rounded-md hover:bg-[#5B21B6] transition-colors">
-          <ExternalLink size={14} />
-          Voir le projet
-        </button>
 
       </div>
     </div>
