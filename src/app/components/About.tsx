@@ -12,7 +12,7 @@ const t = {
     title: "About me",
     card1: "Recent graduate in Information Technology, specialized in Information Systems Development at ISET Sousse. Currently pursuing a Master's in Cloud Computing and Distributed Application Development.",
     card2: "Passionate about creating innovative solutions, I adapt quickly to technical environments and commit to high-impact projects.",
-    highlights: ["Analytical mindset", "Team player", "Quick adaptability", "Passion for innovation"],
+    highlights: ["Analytical mindset", "Teamwork", "Quick adaptability", "Passion for innovation"],
   },
 };
 
